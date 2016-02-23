@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+<<<<<<< HEAD
 //inicio
 	$("#inicio").click(function() {
 		$('body,html').animate({scrollTop: $(".sec-inicio").offset().top}, "slow");
@@ -57,3 +58,10 @@ $(document).ready(function(){
 	});
 
 });
+=======
+	//menu inicio
+	$('.inicio').click(function() {
+		$('body,html').animate({scrollTop: $(".inicio").offset().top}, "slow");
+	});
+}
+>>>>>>> 89088f90ef1b820bc2d647acf294f56c9743aeb9
