@@ -6,6 +6,24 @@
   margin: 15px 0px;
 }
 
+.nav-social{
+  z-index: 999;
+  text-transform: uppercase;
+  color: white;
+  position: fixed;
+  right: 0;
+  top:50%;
+  bottom: 0;
+}
+
+.nav-social li{
+  display: inline;
+}
+
+.nav-social img{
+  width: 40px;
+}
+
 @media (max-width: 479px) {
 	.side-menu {
     margin-left: -220px;
