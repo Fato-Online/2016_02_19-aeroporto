@@ -2,6 +2,10 @@
 	list-style-type:none !important;
 }
 
+#video-intro{
+  margin: 15px 0px;
+}
+
 @media (max-width: 479px) {
 	.side-menu {
     margin-left: -220px;
